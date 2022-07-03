@@ -2,17 +2,9 @@ import React from "react";
 import Images from "../images/image";
 
 const Banner = () => {
-  const myStyle = {
-    backgroundImage:
-      "url('https://github.com/instincthub/yourpass/blob/main/images/Pray.jpg?raw=true')",
-    height: "100vh",
-    backgroundPosition: "top",
-    backgroundSize: "cover",
-    backgroundRepeat: "no-repeat",
-  };
   return (
     <>
-      <section className="banner" style={myStyle}>
+      <section className="banner">
         <div className="container">
           <div className="banner_txt">
             <h1>
