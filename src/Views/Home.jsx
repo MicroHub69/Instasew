@@ -6,6 +6,7 @@ import Discover from "../components/Discover";
 import Footer from "../components/Footer";
 import Numbers from "../components/Numbers";
 import Choose from "../components/Choose";
+import Newsletter from "../components/Newsletter";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <Discover />
       <Numbers />
       <Choose />
+      <Newsletter />
       <Footer />
     </div>
   );

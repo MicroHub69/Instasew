@@ -4,7 +4,7 @@ import { useTransition, animated } from "react-spring";
 import Images from "../images/image";
 import DarkMode from "./DarkMode";
 
-const Navbar = () => {
+const Navbar = (props) => {
   const [showMenu, setShowMenu] = useState("navlinks");
   const [blur, setBlur] = useState("backgroundMask");
   const transitions = useTransition(showMenu, {
@@ -35,7 +35,7 @@ const Navbar = () => {
           <div className={blur} onClick={NavToggle}></div>
           <ul className={showMenu}>
             <h2 className="on_nav">instasew</h2>
-            <Link to="/about">
+            <Link to="/about" className={props.what}>
               <li>About</li>
             </Link>
             <Link to="/contact">

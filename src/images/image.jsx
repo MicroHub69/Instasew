@@ -18,6 +18,10 @@ const Images = {
   flutterwave: require("../images/flutter.png"),
   techpoint: require("../images/techpoint.png"),
   support: require("../images/support.png"),
+  Group: require("../images/together.jpg"),
+  Grid: require("../images/grid.png"),
+  star1: require("../images/star1.png"),
+
   universe: require("../images/everywhere.png"),
   custom: require("../images/custom.png"),
 };

@@ -719,6 +719,11 @@ nav h2 {
   width: 25px;
 }
 
+.underline {
+  border-bottom: 1px solid var(--AmericanPurple);
+  color: red;
+}
+
 .navlinks {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -754,6 +759,10 @@ nav h2 {
 .navlinks li:hover::before {
   opacity: 1;
   width: 100%;
+}
+
+.navlinks li:active {
+  border-bottom: #00838f;
 }
 
 .btn_only {
@@ -2200,8 +2209,10 @@ footer ul.breadcrumb li a:hover {
   --overlay: rgba(44, 51, 58, 0.2);
 }
 
-.abouts_us {
-  margin-top: 150px;
+.align_txt {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .banner {
@@ -2314,8 +2325,16 @@ footer ul.breadcrumb li a:hover {
   margin-top: 2px;
 }
 
+.Majorheading {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+}
+
 .our_vert {
   background-color: var(--Magnolia) !important;
+  -webkit-box-shadow: var(--shadow);
+          box-shadow: var(--shadow);
   padding: 60px 10px;
   border-radius: 5px;
   margin-top: 80px;
@@ -2348,12 +2367,71 @@ footer ul.breadcrumb li a:hover {
   text-align: center;
 }
 
+.about_page {
+  margin-top: 130px;
+}
+
+.about_page h3 {
+  text-align: center;
+}
+
+.newsletter_s {
+  background-color: var(--Gunmetal);
+  padding: 80px 20px;
+  margin-top: 80px;
+}
+
+.newsletter_s .subscribe {
+  text-align: center;
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+.newsletter_s .subscribe h2 {
+  font-weight: 600;
+  font-size: 32px;
+  margin-bottom: 0;
+  line-height: 39px;
+  color: var(--White);
+}
+
+.newsletter_s .subscribe p {
+  color: var(--White);
+  text-align: center;
+}
+
+.newsletter_s .subscribe form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.newsletter_s .subscribe form input {
+  width: 70%;
+  border-radius: 5px 0 0 5px;
+}
+
+.newsletter_s .subscribe form button {
+  width: 30%;
+  padding: 0;
+  border-radius: 0px 5px 5px 0px;
+  height: 50px;
+}
+
+#fog_bg {
+  background: url("https://github.com/MicroHub69/Instasew/blob/main/src/images/fog_section.png?raw=true");
+  background-position: -300px 10px;
+  background-repeat: no-repeat;
+  background-size: 500px 500px;
+  width: 100%;
+}
+
 .diversion {
   margin-top: 80px;
 }
 
 .diversion .choose .top_txt {
   padding: 40px 10px;
+  background-color: var(--White);
   border: 1px solid rgba(44, 51, 58, 0.2);
 }
 
@@ -2371,6 +2449,59 @@ footer ul.breadcrumb li a:hover {
   margin-top: 5px;
 }
 
+.native-btn {
+  background-image: var(--Main-Gradient);
+  color: #ffffff;
+}
+
+.about_desc {
+  max-width: 1077px;
+  margin: 100px auto;
+}
+
+.about_desc .ps {
+  margin-bottom: 30px;
+}
+
+.about_desc .ps span {
+  font-weight: 600;
+}
+
+.our_stars .heading_p {
+  max-width: 600px;
+}
+
+.the_stars {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.the_stars .p_star {
+  margin: 40px 0;
+}
+
+.the_stars .p_star h4 {
+  margin-bottom: 0px;
+  font-weight: 500;
+}
+
+.the_stars .p_star p {
+  margin-top: 3px;
+}
+
+.the_stars img {
+  width: 160px;
+  height: 160px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.the_stars p {
+  text-align: center;
+}
+
 @media (max-width: 540px) {
   .banner_txt h1 {
     font-size: 28px;
@@ -2378,6 +2509,12 @@ footer ul.breadcrumb li a:hover {
   }
   .efcc {
     padding-left: 30px;
+  }
+  .group_pic {
+    border-radius: 5px;
+    height: 250px;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
 
@@ -2414,6 +2551,25 @@ footer ul.breadcrumb li a:hover {
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
+  }
+  .about_desc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .about_desc .ps {
+    width: 50%;
+    margin: 0;
+    padding-right: 30px;
+  }
+  .about_desc .ps p {
+    padding-right: 60px;
+  }
+  .about_desc .grided {
+    width: 50%;
   }
   .diversion {
     display: -webkit-box;

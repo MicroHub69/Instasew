@@ -3,7 +3,7 @@ import Images from "../images/image";
 
 const Choose = () => {
   return (
-    <section className="container">
+    <section className="container" id="fog_bg">
       <div className="diversion">
         <div className="choose">
           <div className="top_txt">

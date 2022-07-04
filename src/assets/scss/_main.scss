@@ -590,10 +590,18 @@ nav {
   width: 25px;
   // position: relative;
 }
+.underline {
+  border-bottom: 1px solid var(--AmericanPurple);
+  color: red;
+}
 .navlinks {
   display: flex;
   justify-content: space-around;
   width: 50%;
+  Link {
+    &:active {
+    }
+  }
 
   li {
     margin: 25px 0;
@@ -617,6 +625,9 @@ nav {
     &:hover::before {
       opacity: 1;
       width: 100%;
+    }
+    &:active {
+      border-bottom: #00838f;
     }
   }
 }
