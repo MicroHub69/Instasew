@@ -1,17 +1,14 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import Group from "../components/GroupH";
-import Teams from "../components/Teams";
+import BlogHead from "../components/BlogHead";
 import Newsletter from "../components/Newsletter";
 
 const About = () => {
   return (
     <div>
       <Navbar />
-      <Group />
-      <Teams />
-      <Newsletter />
+      <BlogHead />
       <Footer />
     </div>
   );

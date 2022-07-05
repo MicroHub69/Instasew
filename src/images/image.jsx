@@ -21,6 +21,7 @@ const Images = {
   Group: require("../images/together.jpg"),
   Grid: require("../images/grid.png"),
   star1: require("../images/star1.png"),
+  woods: require("../images/woods.jpg"),
 
   universe: require("../images/everywhere.png"),
   custom: require("../images/custom.png"),

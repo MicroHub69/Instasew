@@ -1,13 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import axios from "axios";
-import Footer from "./components/Footer";
-// import { Navbar, Input } from "./components";
-import Input from "./components/Input";
-import Card from "./components/Cards";
-import Home from "./Views/Home";
 import "./assets/mini/style.min.css";
+import Home from "./Views/Home";
 import About from "./Views/About";
+import Contact from "./Views/Contact";
+import Blog from "./Views/Blog";
 
 function App() {
   return (
@@ -15,6 +12,8 @@ function App() {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/blog" component={Blog} />
       </Switch>
     </Router>
   );

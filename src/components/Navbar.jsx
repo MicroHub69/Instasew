@@ -31,11 +31,13 @@ const Navbar = (props) => {
       <header>
         <nav className="container">
           <DarkMode />
-          <h2>instasew</h2>
+          <Link to="/">
+            <h2>instasew</h2>
+          </Link>
           <div className={blur} onClick={NavToggle}></div>
           <ul className={showMenu}>
             <h2 className="on_nav">instasew</h2>
-            <Link to="/about" className={props.what}>
+            <Link to="/about">
               <li>About</li>
             </Link>
             <Link to="/contact">

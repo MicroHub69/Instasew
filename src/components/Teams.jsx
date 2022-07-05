@@ -16,27 +16,7 @@ const Test = () => {
           <p>Stars Position</p>
         </div>
         <div className="p_star align_text">
-          <img src={Images.star1} alt="" />
-          <h4>Star Name</h4>
-          <p>Stars Position</p>
-        </div>
-        <div className="p_star align_text">
-          <img src={Images.star1} alt="" />
-          <h4>Star Name</h4>
-          <p>Stars Position</p>
-        </div>
-        <div className="p_star align_text">
-          <img src={Images.star1} alt="" />
-          <h4>Star Name</h4>
-          <p>Stars Position</p>
-        </div>
-        <div className="p_star align_text">
-          <img src={Images.star1} alt="" />
-          <h4>Star Name</h4>
-          <p>Stars Position</p>
-        </div>
-        <div className="p_star align_text">
-          <img src={Images.star1} alt="" />
+          <button className="btn_only">+</button>
           <h4>Star Name</h4>
           <p>Stars Position</p>
         </div>

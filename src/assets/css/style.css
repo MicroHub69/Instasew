@@ -2244,10 +2244,13 @@ footer ul.breadcrumb li a:hover {
 }
 
 .get_started_with {
+  background: url("https://github.com/MicroHub69/Instasew/blob/main/src/images/bb_background.png?raw=true");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  max-width: 800px;
   width: 100%;
+  margin: 0 auto;
 }
 
 .get_started_with button {
@@ -2489,6 +2492,14 @@ footer ul.breadcrumb li a:hover {
   margin-top: 3px;
 }
 
+.the_stars .p_star button {
+  width: 160px;
+  height: 160px;
+  padding: 0;
+  font-size: 60px;
+  border-radius: 50% !important;
+}
+
 .the_stars img {
   width: 160px;
   height: 160px;
@@ -2500,6 +2511,76 @@ footer ul.breadcrumb li a:hover {
 
 .the_stars p {
   text-align: center;
+}
+
+.mini_flex {
+  margin-top: 130px;
+}
+
+.mini_flex h2 {
+  margin-bottom: 0;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+}
+
+.mini_flex h2 span {
+  background: var(--Main-Gradient);
+  font-family: var(--Montserat);
+  font-weight: 600;
+  /* Mask the color to the text, and remove the rest  */
+  -webkit-background-clip: text;
+  font-size: 32px;
+  /* Make the text fill color value transparent so the masked background color comes through */
+  -webkit-text-fill-color: transparent;
+}
+
+.mini_flex img {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.mini_flex .thanks {
+  margin-bottom: 30px;
+}
+
+.mini_flex .the_form {
+  border-radius: 5px;
+  border: 1px solid rgba(44, 51, 58, 0.2);
+  padding: 20px;
+}
+
+.mini_flex .the_form input {
+  margin-top: 20px;
+  border: 1px solid rgba(44, 51, 58, 0.5);
+  border-radius: 5px;
+}
+
+.mini_flex .the_form textarea {
+  min-height: 162px;
+  width: 100%;
+  max-width: 100%;
+  padding: 15px;
+  margin-top: 20px;
+  border: 1px solid rgba(44, 51, 58, 0.5);
+  border-radius: 5px;
+  outline: none;
+}
+
+.mini_flex .the_form button {
+  width: 100%;
+}
+
+.mini_flex .the_form a {
+  font-weight: 600;
+}
+
+.Blog {
+  margin-top: 130px;
+}
+
+.Blog .sample_pics {
+  margin-bottom: 30px;
 }
 
 @media (max-width: 540px) {
@@ -2531,6 +2612,22 @@ footer ul.breadcrumb li a:hover {
   }
   .our_vert .p_numbers {
     width: 50%;
+  }
+  .the_stars {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    max-width: 1066px;
+    margin: 0 auto;
+  }
+  .the_stars .p_star {
+    max-width: 250px;
+    width: 100%;
   }
 }
 
@@ -2570,6 +2667,39 @@ footer ul.breadcrumb li a:hover {
   }
   .about_desc .grided {
     width: 50%;
+  }
+  .Blog {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    max-width: 1077px;
+    margin-left: 0;
+  }
+  .Blog .sample_pics {
+    width: 45%;
+  }
+  .Blog .blog_txt {
+    width: 50%;
+  }
+  .Blog .blog_txt button {
+    margin-top: 15px;
+  }
+  .mini_flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    max-width: 1077px;
+    margin: 130px 0;
+  }
+  .mini_flex .thanks,
+  .mini_flex .the_form {
+    width: 45%;
   }
   .diversion {
     display: -webkit-box;
