@@ -30,7 +30,7 @@
   --blue: rgb(26, 57, 87);
   --white: rgb(236, 236, 236);
   --DeepGreen-CyanTurquoise: #206d62;
-
+  --LightBlack: #354858;
   --Nunito: "Nunito", sans-serif;
   --Montserat: "Montserrat", sans-serif;
 
@@ -43,7 +43,7 @@
   --Gunmetal: #ffffff;
   --White: #2c333a;
   --Magnolia: #2c333a;
-
+  --LightBlack: #ffffff;
   --shadow: 0px -2px 8px rgba(255, 255, 255, 0.6),
     0px 2px 8px rgba(255, 255, 255, 0.6);
 }

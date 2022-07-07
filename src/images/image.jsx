@@ -7,6 +7,9 @@ const Images = {
   focus: require("../images/focus.svg").default,
   easy: require("../images/easy.svg").default,
   industry: require("../images/industry.svg").default,
+  close: require("../images/close.svg").default,
+  Experience: require("../images/experience.svg").default,
+  School: require("../images/school.svg").default,
   // Import Images here and svgs above
   laptop: require("../images/mockup.png"),
   smile: require("../images/pic1.png"),

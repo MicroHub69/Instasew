@@ -40,9 +40,6 @@ const Country = () => {
               <h2>
                 Capital: <span>{post.capital}</span>
               </h2>
-              {/*               
-            <Link to="/">Home</Link>
-            <Link to="/About">About</Link> */}
             </div>
           </div>
         </div>

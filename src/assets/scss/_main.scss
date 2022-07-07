@@ -1317,13 +1317,14 @@ input {
       border-radius: 5px;
       cursor: pointer;
       &:checked ~ .checkmark {
-        background-color: var(--DarkCyan);
+        background-image: var(--Main-Gradient);
+        border: 0;
         &:after {
           display: block;
         }
       }
       &:disabled ~ .checkmark {
-        background-color: var(--ChineseSilver);
+        background-color: var(--White);
       }
     }
     .checkmark {
@@ -1335,7 +1336,8 @@ input {
       height: 25px;
       transition: 0.2s ease;
       width: 25px;
-      background-color: #f4f3fe;
+      background-color: var(--White);
+      border: 1px solid var(--Gunmetal);
       &:after {
         content: "";
         position: absolute;
@@ -1656,7 +1658,9 @@ input:valid {
     display: none;
   }
 }
-
+.ghost {
+  display: none;
+}
 @media (min-width: 767px) {
   .container {
     padding: 0 40px;

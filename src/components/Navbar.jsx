@@ -51,7 +51,11 @@ const Navbar = (props) => {
             </Link>
           </ul>
 
-          <div className="hamburger" onClick={NavToggle}>
+          <div
+            className="hamburger"
+            onClick={NavToggle}
+            // onMouseMove={NavToggle}
+          >
             <div className="line"></div>
             <div className="line"></div>
             <div className="line"></div>
